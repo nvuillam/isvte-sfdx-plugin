@@ -458,7 +458,11 @@ const editionWarningRules = [{
         label: 'Report Types',
         threshold: 50
       },
-      
+      {
+        metadataType: 'PlatformEventChannel',
+        label: 'Platform Events',
+        threshold: 0
+      }
     ]
   },
   {
